@@ -1,0 +1,1 @@
+mongo='mongodb://dbuser:dbpassword@10.0.0.234:9002/edulasticv2-dryrun'
