@@ -1,0 +1,675 @@
+No more rows!
+curriculumDataToInsert [
+  {
+    curriculum: 'NHSAS Granite State Math',
+    grades: [ 3, 4 ],
+    subject: 'Mathematics',
+    _id: 2599
+  },
+  {
+    curriculum: 'NHSAS Granite State ELA',
+    grades: [ 3, 4 ],
+    subject: 'ELA',
+    _id: 2600
+  },
+  {
+    curriculum: 'NHSAS Granite State Science',
+    grades: [ 3, 4 ],
+    subject: 'Science',
+    _id: 2601
+  }
+]
+domainDataToInsert [
+  {
+    identifier: 'MAGN',
+    description: 'Explore and understand the intricate world of magnetism through the lens of mathematics and computational power.',
+    level: 'TLO',
+    _id: 755948,
+    curriculumId: 2599,
+    grades: [ 3, 4 ]
+  },
+  {
+    identifier: 'MAL',
+    description: "It's important to note that without additional context, definitively identifying MAL's meaning in mathematics can be challenging.",
+    level: 'TLO',
+    _id: 755960,
+    curriculumId: 2599,
+    grades: [ 3, 4 ]
+  },
+  {
+    identifier: 'MG',
+    description: 'The domain is a crucial concept that defines the set of all acceptable input values for a function.',
+    level: 'TLO',
+    _id: 755966,
+    curriculumId: 2599,
+    grades: [ 3 ]
+  },
+  {
+    identifier: 'E',
+    description: 'Encompass the entire realm of electronic communication using computers and the internet.',
+    level: 'TLO',
+    _id: 755974,
+    curriculumId: 2600,
+    grades: [ 3, 4 ]
+  },
+  {
+    identifier: 'EW8',
+    description: 'Examining the different varieties of English used globally (e.g., American English, British English, Indian English).',
+    level: 'TLO',
+    _id: 755983,
+    curriculumId: 2600,
+    grades: [ 3, 4 ]
+  },
+  {
+    identifier: 'S',
+    description: 'Studies matter, energy, and their interactions (think motion, forces, light, sound, electricity, magnetism, atoms, and the universe).',
+    level: 'TLO',
+    _id: 755990,
+    curriculumId: 2601,
+    grades: [ 3, 4 ]
+  },
+  {
+    identifier: 'SKPX',
+    description: 'Focuses on the Earth, its atmosphere, oceans, and other aspects of our planet (think geology, meteorology, oceanography, and paleontology).',
+    level: 'TLO',
+    _id: 755996,
+    curriculumId: 2601,
+    grades: [ 3, 4 ]
+  }
+]
+clusterDataToInsert [
+  {
+    identifier: '3.A',
+    description: 'Explores the behavior of magnetic materials using mathematical tools.',
+    level: 'ELO',
+    _id: 755949,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948
+  },
+  {
+    identifier: '3.G',
+    description: 'Subfield of magnetism that uses computer simulations to model the behavior of magnetic materials at the microscopic level.',
+    level: 'ELO',
+    _id: 755953,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948
+  },
+  {
+    identifier: '4.I',
+    description: 'Heavily relies on numerical analysis techniques to solve complex mathematical equations and model the interactions between individual magnetic moments within the material.',
+    level: 'ELO',
+    _id: 755957,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755948
+  },
+  {
+    identifier: '3.A',
+    description: 'DSLs are custom programming languages designed to handle specific tasks or problems within a particular domain.',
+    level: 'ELO',
+    _id: 755961,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755960
+  },
+  {
+    identifier: '4.M',
+    description: 'MediaWiki is a popular open-source software used to power wikis like Wikipedia. Many wikis utilize custom templates to format specific content, and MAL could be such a template for mathematical expressions.',
+    level: 'ELO',
+    _id: 755963,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755960
+  },
+  {
+    identifier: '3.Q',
+    description: 'Ensures the function operates on valid inputs and produces meaningful outputs.',
+    level: 'ELO',
+    _id: 755967,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966
+  },
+  {
+    identifier: '4.Q',
+    description: 'Helps identify potential restrictions or limitations of the function.',
+    level: 'ELO',
+    _id: 755970,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966
+  },
+  {
+    identifier: '4.F',
+    description: 'Plays a crucial role in analyzing functions, graphing them, and understanding their behavior.',
+    level: 'ELO',
+    _id: 755972,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966
+  },
+  {
+    identifier: '3.E',
+    description: 'Sending and receiving electronic messages.',
+    level: 'ELO',
+    _id: 755975,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755974
+  },
+  {
+    identifier: '4.E',
+    description: 'Platforms like Facebook, Twitter, and Instagram for communication and sharing information.',
+    level: 'ELO',
+    _id: 755979,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755974
+  },
+  {
+    identifier: '3.W',
+    description: 'Real-time communication tools like WhatsApp and Telegram.',
+    level: 'ELO',
+    _id: 755984,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755983
+  },
+  {
+    identifier: '4.W',
+    description: 'Platforms for exchanging ideas and discussions on specific topics.',
+    level: 'ELO',
+    _id: 755987,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755983
+  },
+  {
+    identifier: '3.S',
+    description: 'Investigates the human mind and behavior (think cognition, emotion, personality, and social interaction).',
+    level: 'ELO',
+    _id: 755991,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755990
+  },
+  {
+    identifier: '4.S',
+    description: 'Studies human society and social change (think social institutions, social stratification, culture, and deviance).',
+    level: 'ELO',
+    _id: 755993,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755990
+  },
+  {
+    identifier: '3.X',
+    description: 'Explores human cultures and societies across time and space (think archaeology, social anthropology, and linguistics).',
+    level: 'ELO',
+    _id: 755997,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996
+  },
+  {
+    identifier: '3.K',
+    description: 'Studies the production, distribution, and consumption of goods and services (think microeconomics, macroeconomics, and econometrics).',
+    level: 'ELO',
+    _id: 756000,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996
+  },
+  {
+    identifier: '4.P',
+    description: 'Examines political power, institutions, and processes (think political theory, comparative politics, and international relations).',
+    level: 'ELO',
+    _id: 756003,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755996
+  }
+]
+standardsDataToInsert [
+  {
+    identifier: '3.MA.6',
+    description: 'Helps describe the forces and fields associated with magnetism, using vectors to represent the direction and magnitude of magnetic fields.',
+    level: 'SUB_ELO',
+    _id: 755950,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755949
+  },
+  {
+    identifier: '3.MA.7',
+    description: 'Model the dynamics of magnetization in materials, allowing scientists to predict how magnetic fields change over time.',
+    level: 'SUB_ELO',
+    _id: 755951,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755949
+  },
+  {
+    identifier: '3.MA.8',
+    description: 'Help understand the fundamental properties of magnetic materials based on their internal symmetries.',
+    level: 'SUB_ELO',
+    _id: 755952,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755949
+  },
+  {
+    identifier: '3.MG.3',
+    description: 'Techniques for solving complex mathematical equations on computers to simulate the interactions between individual magnetic moments.',
+    level: 'SUB_ELO',
+    _id: 755954,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755953
+  },
+  {
+    identifier: '3.MG.4a',
+    description: 'This helps find the minimum energy state of a magnetic system, which determines the overall magnetization.',
+    level: 'SUB_ELO',
+    _id: 755955,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755953
+  },
+  {
+    identifier: '3.MG.4b',
+    description: 'MAGN in a mathematical context could refer to either the field that studies magnetism using mathematical tools or the specific computational techniques used to model magnetic materials.',
+    level: 'SUB_ELO',
+    _id: 755956,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755948,
+    eloId: 755953
+  },
+  {
+    identifier: '4.MI.1',
+    description: 'The calculus of variations plays a crucial role in finding the minimum energy state of a magnetic system, ultimately determining its overall magnetization.',
+    level: 'SUB_ELO',
+    _id: 755958,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755948,
+    eloId: 755957
+  },
+  {
+    identifier: '4.MI.2',
+    description: 'Differential equations become tools to predict how magnetic fields change over time, while group theory and symmetry unlock fundamental properties of these materials based on their inherent structure.',
+    level: 'SUB_ELO',
+    _id: 755959,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755948,
+    eloId: 755957
+  },
+  {
+    identifier: '3.MLA.1',
+    description: 'Expressing complex mathematical concepts or notations more concisely than traditional programming languages.',
+    level: 'SUB_ELO',
+    _id: 755962,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755960,
+    eloId: 755961
+  },
+  {
+    identifier: '4.M.1',
+    description: 'Building specialized software for tasks like symbolic computation, theorem proving, or computer aided geometric design (CAGD).',
+    level: 'SUB_ELO',
+    _id: 755964,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755960,
+    eloId: 755963
+  },
+  {
+    identifier: '4.M.2',
+    description: 'In a more general mathematical context, MAL likely refers to Domain-Specific Languages for mathematics.',
+    level: 'SUB_ELO',
+    _id: 755965,
+    curriculumId: 2599,
+    grades: [ 4 ],
+    tloId: 755960,
+    eloId: 755963
+  },
+  {
+    identifier: '3.MDG.5',
+    description: 'Inequalities (e.g., x ≥ 0 for values greater than or equal to zero).',
+    level: 'SUB_ELO',
+    _id: 755968,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966,
+    eloId: 755967
+  },
+  {
+    identifier: '3.MDG.6',
+    description: 'Using set notation (e.g., {x ∈ ℝ | x ≠ 0} for all real numbers except zero).',
+    level: 'SUB_ELO',
+    _id: 755969,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966,
+    eloId: 755967
+  },
+  {
+    identifier: '3.MD.Q1',
+    description: 'Listing all acceptable values (e.g., {1, 2, 3, ...} for the natural numbers).',
+    level: 'SUB_ELO',
+    _id: 755971,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966,
+    eloId: 755970
+  },
+  {
+    identifier: '3.MF.2',
+    description: 'The domain of a function f is often denoted by dom(f).',
+    level: 'SUB_ELO',
+    _id: 755973,
+    curriculumId: 2599,
+    grades: [ 3 ],
+    tloId: 755966,
+    eloId: 755972
+  },
+  {
+    identifier: '3.EE.A1',
+    description: 'Online tools for virtual meetings and presentations.',
+    level: 'SUB_ELO',
+    _id: 755976,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755974,
+    eloId: 755975
+  },
+  {
+    identifier: '3.EE.2.a',
+    description: 'Studying how people learn English as a non-native language.',
+    level: 'SUB_ELO',
+    _id: 755977,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755974,
+    eloId: 755975
+  },
+  {
+    identifier: '3.EE.2.b',
+    description: 'Analyzing how people from diverse backgrounds',
+    level: 'SUB_ELO',
+    _id: 755978,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755974,
+    eloId: 755975
+  },
+  {
+    identifier: '4.EE.A2',
+    description: 'Use English to communicate effectively despite potential language differences.',
+    level: 'SUB_ELO',
+    _id: 755980,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755974,
+    eloId: 755979
+  },
+  {
+    identifier: '4.EE.2.a',
+    description: 'Understanding the social and cultural context of communication in English as a lingua franca.',
+    level: 'SUB_ELO',
+    _id: 755981,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755974,
+    eloId: 755979
+  },
+  {
+    identifier: '4.EE.2.b',
+    description: "Delves into the evolving nature of English as a global language and how it's adapted and used for communication across cultures.",
+    level: 'SUB_ELO',
+    _id: 755982,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755974,
+    eloId: 755979
+  },
+  {
+    identifier: '3.EW.a',
+    description: `It's important to consider the context in which you encountered "e domain" in English studies.`,
+    level: 'SUB_ELO',
+    _id: 755985,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755983,
+    eloId: 755984
+  },
+  {
+    identifier: '3.EW.b',
+    description: 'The interpretations mentioned above provide possibilities, but the specific meaning might depend on the surrounding discussion or the field of study within English.',
+    level: 'SUB_ELO',
+    _id: 755986,
+    curriculumId: 2600,
+    grades: [ 3 ],
+    tloId: 755983,
+    eloId: 755984
+  },
+  {
+    identifier: '4.WL.b',
+    description: 'EFL (English as a Foreign Language) or EAP (English for Academic Purposes) are established domains within English language teaching.',
+    level: 'SUB_ELO',
+    _id: 755988,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755983,
+    eloId: 755987
+  },
+  {
+    identifier: '4.WL.c',
+    description: 'The meaning might be specific to that context and not widely recognized in general English usage.',
+    level: 'SUB_ELO',
+    _id: 755989,
+    curriculumId: 2600,
+    grades: [ 4 ],
+    tloId: 755983,
+    eloId: 755987
+  },
+  {
+    identifier: '3.SS.1',
+    description: 'Gathering information about the natural world through the senses or instruments.',
+    level: 'SUB_ELO',
+    _id: 755992,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755990,
+    eloId: 755991
+  },
+  {
+    identifier: '4.SS.1',
+    description: 'Formulating a tentative explanation for an observed phenomenon.',
+    level: 'SUB_ELO',
+    _id: 755994,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755990,
+    eloId: 755993
+  },
+  {
+    identifier: '4.SS.2',
+    description: 'Testing the hypothesis by conducting controlled experiments.',
+    level: 'SUB_ELO',
+    _id: 755995,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755990,
+    eloId: 755993
+  },
+  {
+    identifier: '3.SX.1',
+    description: 'Interpreting the results of the experiments to support or refute the hypothesis.',
+    level: 'SUB_ELO',
+    _id: 755998,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996,
+    eloId: 755997
+  },
+  {
+    identifier: '3.SX.2',
+    description: 'Drawing inferences based on the evidence and potentially revising the hypothesis.',
+    level: 'SUB_ELO',
+    _id: 755999,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996,
+    eloId: 755997
+  },
+  {
+    identifier: '3.SK.1a',
+    description: 'Sharing the research findings with the scientific community through publications and presentations.',
+    level: 'SUB_ELO',
+    _id: 756001,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996,
+    eloId: 756000
+  },
+  {
+    identifier: '3.SK.1b',
+    description: 'Explores human cultures and societies across time and space (think archaeology, social anthropology, and linguistics).',
+    level: 'SUB_ELO',
+    _id: 756002,
+    curriculumId: 2601,
+    grades: [ 3 ],
+    tloId: 755996,
+    eloId: 756000
+  },
+  {
+    identifier: '4.SP.1',
+    description: 'Studies human society and social change (think social institutions, social stratification, culture, and deviance).',
+    level: 'SUB_ELO',
+    _id: 756004,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755996,
+    eloId: 756003
+  },
+  {
+    identifier: '4.SP.2',
+    description: 'Studies the design, development, and application of software and computer systems (think algorithms, data structures, programming languages, and artificial intelligence).',
+    level: 'SUB_ELO',
+    _id: 756005,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755996,
+    eloId: 756003
+  },
+  {
+    identifier: '4.SP.3',
+    description: 'Explores the principles of valid reasoning and inference (think logic statements, syllogisms, and proofs).',
+    level: 'SUB_ELO',
+    _id: 756006,
+    curriculumId: 2601,
+    grades: [ 4 ],
+    tloId: 755996,
+    eloId: 756003
+  }
+]
+
+ Mongo Insertion Result {
+  "Curriculums": {
+    "acknowledged": true,
+    "insertedCount": 3,
+    "insertedIds": {
+      "0": 2599,
+      "1": 2600,
+      "2": 2601
+    }
+  },
+  "Domains": {
+    "acknowledged": true,
+    "insertedCount": 7,
+    "insertedIds": {
+      "0": 755948,
+      "1": 755960,
+      "2": 755966,
+      "3": 755974,
+      "4": 755983,
+      "5": 755990,
+      "6": 755996
+    }
+  },
+  "Clusters": {
+    "acknowledged": true,
+    "insertedCount": 17,
+    "insertedIds": {
+      "0": 755949,
+      "1": 755953,
+      "2": 755957,
+      "3": 755961,
+      "4": 755963,
+      "5": 755967,
+      "6": 755970,
+      "7": 755972,
+      "8": 755975,
+      "9": 755979,
+      "10": 755984,
+      "11": 755987,
+      "12": 755991,
+      "13": 755993,
+      "14": 755997,
+      "15": 756000,
+      "16": 756003
+    }
+  },
+  "Standards": {
+    "acknowledged": true,
+    "insertedCount": 35,
+    "insertedIds": {
+      "0": 755950,
+      "1": 755951,
+      "2": 755952,
+      "3": 755954,
+      "4": 755955,
+      "5": 755956,
+      "6": 755958,
+      "7": 755959,
+      "8": 755962,
+      "9": 755964,
+      "10": 755965,
+      "11": 755968,
+      "12": 755969,
+      "13": 755971,
+      "14": 755973,
+      "15": 755976,
+      "16": 755977,
+      "17": 755978,
+      "18": 755980,
+      "19": 755981,
+      "20": 755982,
+      "21": 755985,
+      "22": 755986,
+      "23": 755988,
+      "24": 755989,
+      "25": 755992,
+      "26": 755994,
+      "27": 755995,
+      "28": 755998,
+      "29": 755999,
+      "30": 756001,
+      "31": 756002,
+      "32": 756004,
+      "33": 756005,
+      "34": 756006
+    }
+  }
+}
